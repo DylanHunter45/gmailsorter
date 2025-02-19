@@ -44,7 +44,9 @@ Create a labels.json File Create a labels.json file that maps email addresses to
   
   "fourth.email@example.com": "Social/Newsletter" 
   
-} "email.address@example.com": "Personal/Trash" will move emails from email.address@example.com to the Personal/Trash label. The script will loop through all mappings and apply the corresponding actions. 
+} 
+
+"email.address@example.com": "Personal/Trash" will move emails from email.address@example.com to the Personal/Trash label. The script will loop through all mappings and apply the corresponding actions. 
 
 #### Step 4: 
 Run the Script Run the Python script to move or delete emails:
