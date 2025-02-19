@@ -1,7 +1,7 @@
-Gmail Email Mover
+#Gmail Email Mover
 This script allows you to move emails from your Gmail account based on a mapping defined in a JSON file. The mapping specifies the sender's email address and the corresponding label. The script uses IMAP to interact with Gmail.
 
-Features:
+#Features:
 Move emails to specified. 
 Works across all folders, not just the Inbox (e.g., Sent, Trash, etc.).
 Supports user-specific credentials through environment variables.
