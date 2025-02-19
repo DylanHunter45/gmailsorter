@@ -36,7 +36,9 @@ Replace your_email@gmail.com with your actual Gmail address and your_app_passwor
 #### Step 3: 
 Create a labels.json File Create a labels.json file that maps email addresses to Gmail labels or specify "delete" to delete emails. The structure of the JSON file is as follows:
 
-{ "email.address@example.com": "Personal/Trash", 
+{ 
+
+"email.address@example.com": "Personal/Trash", 
 
  "another.email@example.com": "Work/ProjectA", 
   
